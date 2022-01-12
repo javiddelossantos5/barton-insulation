@@ -244,7 +244,7 @@
 .insulation-container1 {
   background-image: url(./images/residential.webp);
   height: 300px;
-  width: 300px;
+  width: 350px;
   background-position: center;
   background-size: cover;
   display: flex;
@@ -256,7 +256,7 @@
 .insulation-container2 {
   background-image: url(./images/commercial.jpg);
   height: 300px;
-  width: 300px;
+  width: 350px;
   background-position: center;
   background-size: cover;
   display: flex;
@@ -268,7 +268,7 @@
 .insulation-container3 {
   background-image: url(./images/spray-foam-insulation-vs-fiberglass.jpg);
   height: 300px;
-  width: 300px;
+  width: 350px;
   background-position: center;
   background-size: cover;
   display: flex;
