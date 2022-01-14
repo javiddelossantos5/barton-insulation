@@ -188,6 +188,8 @@
   margin-top: 15px;
 }
 
+/* Footer Start */
+
 .footer {
   background: black;
   color: white;
@@ -235,6 +237,13 @@
 .social-list__link i {
   color: white;
 }
+
+.footer ul li a i {
+  color: white;
+}
+
+/* Footer End */
+
 
 .insulation {
   display: flex;
@@ -570,6 +579,5 @@
 .effeciency p a {
  text-decoration: none;
 }
-
 
 /* End SprayFoam Css */
