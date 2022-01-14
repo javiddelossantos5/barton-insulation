@@ -229,6 +229,11 @@
 
 .social-list__link {
   padding: 0.5em;
+  color: white;
+}
+
+.social-list__link i {
+  color: white;
 }
 
 .insulation {
@@ -406,7 +411,7 @@
 }
 
 .commercial-img img {
-  height: 400px;
+  height: 200px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -456,10 +461,115 @@
 
 .commercial-where li {
   margin: 5px 30px;
+}
 
+/* End Commercial Css */
+
+/* Start SprayFoam Css */
+
+@media (max-width: 800px) {
+  .foam-section,
+  .foam-section__third  {
+    flex-wrap: wrap;
+  }
+}
+
+.foam-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  margin: 25px auto;
+}
+
+.foam-img img {
+  height: 200px;
+  margin: 20px 0 20px 50px;
+}
+
+.foam-section__text h2 {
+  font-weight: 800;
+  margin-bottom: 25px;
+}
+
+.foam-section__text p {
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+.foam-section__second {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  margin: 25px auto;
+  flex-direction: column;
+  background-color: grey;
+  padding: 15px 25px;
+  border-radius: 10px;
+}
+
+.foam-section__second h2 {
+  font-weight: 800;
+  margin-bottom: 25px;
+  color: white;
+}
+
+.foam-section__second p {
+  margin-bottom: 15px;
+  color: white;
+  font-size: 18px;
+}
+
+.foam-section__third {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  margin: 50px auto;
+}
+
+.foam-third__img img {
+  height: 400px;
+  margin-top: 20px;
+}
+
+.foam-third__text {
+  margin-right: 60px;
+}
+
+.foam-third__text h2 {
+  margin-bottom: 25px;
+  font-weight: 800;
+}
+
+.foam-third__text p {
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+.effeciency {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  margin: 50px auto;
+  flex-direction: column;
+}
+
+.effeciency h2 {
+  font-weight: 800;
+  margin-bottom: 25px;
+}
+
+.effeciency p {
+  text-align: center;
+  font-size: 18px
+}
+
+.effeciency p a {
+ text-decoration: none;
 }
 
 
-
-
-/* End Commercial Css */
+/* End SprayFoam Css */
