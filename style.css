@@ -244,7 +244,6 @@
 
 /* Footer End */
 
-
 .insulation {
   display: flex;
   justify-content: space-around;
@@ -478,8 +477,13 @@
 
 @media (max-width: 800px) {
   .foam-section,
-  .foam-section__third  {
+  .foam-section__third {
     flex-wrap: wrap;
+  }
+
+  .foam-img img {
+    height: 130px;
+    margin: auto;
   }
 }
 
@@ -493,7 +497,13 @@
 
 .foam-img img {
   height: 200px;
-  margin: 20px 0 20px 50px;
+  /* margin: 20px 0 20px 50px; */
+}
+
+.foam-section__text {
+  margin-right: 60px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .foam-section__text h2 {
@@ -573,11 +583,11 @@
 
 .effeciency p {
   text-align: center;
-  font-size: 18px
+  font-size: 18px;
 }
 
 .effeciency p a {
- text-decoration: none;
+  text-decoration: none;
 }
 
 /* End SprayFoam Css */
