@@ -103,6 +103,7 @@
 
 .about p {
   margin-bottom: 15px;
+  font-size: 18px;
 }
 
 .about p a {
@@ -186,6 +187,7 @@
 .upgrade p {
   text-align: center;
   margin-top: 15px;
+  font-size: 18px;
 }
 
 /* Footer Start */
@@ -332,6 +334,7 @@
   display: flex;
   margin: 0;
   padding: 0;
+  font-size: 18px;
 }
 
 .navbar-links li {
