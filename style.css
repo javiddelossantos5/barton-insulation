@@ -446,6 +446,11 @@
   font-size: 18px;
 }
 
+.commercial-text p a {
+text-decoration: none;
+
+}
+
 @media (max-width: 800px) {
   .commercial-section {
     flex-wrap: wrap;
