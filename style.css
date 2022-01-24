@@ -447,8 +447,7 @@
 }
 
 .commercial-text p a {
-text-decoration: none;
-
+  text-decoration: none;
 }
 
 @media (max-width: 800px) {
@@ -492,6 +491,16 @@ text-decoration: none;
   .foam-img img {
     height: 130px;
     margin: auto;
+  }
+
+  .contact-me {
+    flex-wrap: wrap;
+    width: 100%;
+  }
+
+  .form {
+    width: 80%;
+    background-color: white;
   }
 }
 
@@ -600,9 +609,121 @@ text-decoration: none;
 
 /* End SprayFoam Css */
 
+/* Contact Me Start */
+
+.mapouter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 50px;
+  /* width: 400px;
+  height: 500px;
+  margin-left: 20px; */
+}
+
+.contact-text {
+  text-align: center;
+  margin: 40px auto;
+  font-size: 30px;
+}
+
+.contact-me {
+  margin: auto;
+  width: 100%;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  background-color: rgba(128, 128, 128, 0.548);
+  padding: 50px 0;
+  margin-bottom: 40px;
+  /* border-radius: 25px; */
+}
+
+.contact-me__text {
+  margin: 20px 0;
+}
+
+.contact-me__text h4 {
+  font-size: 20px;
+  margin: 10px 10px;
+}
+
+.contact-me__text p {
+  font-size: 18px;
+  padding: 5px 5px;
+}
+
+.contact-me__text a {
+  font-size: 18px;
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
+
+/* Contact Me End */
+
+/* Form Box Start */
+
+.form-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 80%;
+  margin: auto;
+  padding: 20px 0;
+}
+
+.form-text h1 {
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+.form-text h4 {
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+.form-text p {
+  text-align: center;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.form-text p a {
+  text-decoration: none;
+  cursor: pointer;
+  color: black;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(128, 128, 128, 0.548);
+  padding: 30px 0;
+  width: 80%;
+  margin: 20px auto;
+}
+
+.form label {
+  font-size: 18px;
+}
+
+.form input,
+.form textarea {
+  width: 100%;
+  padding: 10px 20px;
+  border-radius: 25px;
+}
+
+form {
+  /* width: 400px; */
+}
+
+/* Form Box End */
+
 /* Footer second Start */
 
-footer{
+footer {
   right: 0;
   background: #111;
   height: auto;
@@ -611,7 +732,7 @@ footer{
   color: #fff;
 }
 
-.footer-content{
+.footer-content {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -619,14 +740,14 @@ footer{
   text-align: center;
 }
 
-.footer-content h3{
+.footer-content h3 {
   font-size: 2.1rem;
   font-weight: 500;
   text-transform: capitalize;
   line-height: 3rem;
 }
 
-.footer-content p{
+.footer-content p {
   max-width: 500px;
   margin: 10px auto;
   line-height: 28px;
@@ -639,7 +760,7 @@ footer{
   color: white;
 }
 
-.socials{
+.socials {
   list-style: none;
   display: flex;
   align-items: center;
@@ -647,11 +768,11 @@ footer{
   margin: 1rem 0 3rem 0;
 }
 
-.socials li{
+.socials li {
   margin: 0 10px;
 }
 
-.socials a{
+.socials a {
   text-decoration: none;
   color: #fff;
   border: 1.1px solid white;
@@ -659,17 +780,17 @@ footer{
   border-radius: 50%;
 }
 
-.socials a i{
+.socials a i {
   font-size: 1.1rem;
   width: 20px;
-  transition: color .4s ease;
+  transition: color 0.4s ease;
 }
 
-.socials a:hover i{
+.socials a:hover i {
   color: aqua;
 }
 
-.footer-bottom{
+.footer-bottom {
   background: #000;
   width: 100vw;
   padding: 20px;
@@ -677,22 +798,21 @@ footer{
   text-align: center;
 }
 
-.footer-bottom p{
+.footer-bottom p {
   float: left;
   font-size: 14px;
   word-spacing: 2px;
   text-transform: capitalize;
 }
-.footer-bottom p a{
- color:#44bae8;
- font-size: 16px;
- text-decoration: none;
+.footer-bottom p a {
+  color: #44bae8;
+  font-size: 16px;
+  text-decoration: none;
 }
-.footer-bottom span{
-   text-transform: uppercase;
-   opacity: .4;
-   font-weight: 200;
+.footer-bottom span {
+  text-transform: uppercase;
+  opacity: 0.4;
+  font-weight: 200;
 }
-
 
 /* Footer second End */
