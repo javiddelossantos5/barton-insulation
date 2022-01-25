@@ -339,6 +339,7 @@
 
 .navbar-links li {
   list-style: none;
+  padding: 10px;
 }
 
 .navbar-links li a {
@@ -360,8 +361,8 @@
 
 .toggle-button {
   position: absolute;
-  top: 0.75rem;
-  right: 1rem;
+  top: 1.75rem;
+  right: 1.5rem;
   display: none;
   flex-direction: column;
   justify-content: space-between;
@@ -699,8 +700,9 @@
   align-items: center;
   background-color: rgba(128, 128, 128, 0.548);
   padding: 30px 20px;
-  width: 80%;
-  margin: 20px auto;
+  width: 400px;
+  margin: 30px auto;
+  border: 1px solid black;
   border-radius: 20px;
 }
 
@@ -715,9 +717,7 @@
   border-radius: 25px;
 }
 
-form {
-  /* width: 400px; */
-}
+
 
 /* Form Box End */
 
