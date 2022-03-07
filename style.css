@@ -42,6 +42,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  background-attachment: fixed;
 }
 
 .hero-text {
@@ -76,6 +77,12 @@
 .hero-text a:hover {
   background-color: rgb(42, 40, 40);
   color: rgb(226, 207, 207);
+}
+
+@media only screen and (max-width: 600px) {
+  .hero {
+    background-attachment: scroll;
+  }
 }
 
 .about {
@@ -248,47 +255,51 @@
 
 .insulation {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
   flex-wrap: wrap;
   width: 85%;
   margin: 30px auto;
+
 }
 
 .insulation-container1 {
   background-image: url(./images/residential.webp);
   height: 300px;
-  width: 350px;
+  min-width: 350px;
   background-position: center;
   background-size: cover;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 20px auto;
+  margin: 20px 20px;
+  flex: 1;
 }
 
 .insulation-container2 {
   background-image: url(./images/commercial.jpg);
   height: 300px;
-  width: 350px;
+  min-width: 350px;
   background-position: center;
   background-size: cover;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 20px auto;
+  margin: 20px 20px;
+  flex: 1;
 }
 
 .insulation-container3 {
   background-image: url(./images/spray-foam-insulation-vs-fiberglass.jpg);
   height: 300px;
-  width: 350px;
+  min-width: 350px;
   background-position: center;
   background-size: cover;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 20px auto;
+  margin: 20px 20px;
+  flex: 1;
 }
 
 .insulation a {
