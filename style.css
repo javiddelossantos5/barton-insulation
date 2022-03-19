@@ -425,6 +425,14 @@
 
 /* Start Commercial Css */
 
+.header {
+  text-align: center;
+  margin: 50px 20px;
+  font-family: sans-serif;
+  font-weight: 100;
+  font-size: 30px;
+}
+
 .commercial-section {
   display: flex;
   justify-content: center;
@@ -433,16 +441,18 @@
   margin: 25px auto;
 }
 
-.commercial-img img {
-  height: 200px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 25px auto;
+.commercial-section img {
+  flex: 1;
+  object-fit: cover;
+  min-width: 400px;
+  width: 50%;
 }
 
 .commercial-text {
   margin: 10px 40px;
+  text-align: center;
+  flex: 2;
+  width: 50%;
 }
 
 .commercial-text h1 {
@@ -471,6 +481,15 @@
     height: 250px;
     margin: auto;
   }
+
+ .commercial-where {
+   text-align: center;
+ }
+
+ .commercial-where ul {
+  list-style-type: none;
+ }
+
 }
 
 .commercial-where {
@@ -513,6 +532,12 @@
   .form {
     background-color: white;
   }
+
+  .foam-section__text,
+  .foam-third__text,
+  .foam-section__second {
+    text-align: center;
+  }
 }
 
 .foam-section {
@@ -523,15 +548,23 @@
   margin: 25px auto;
 }
 
-.foam-img img {
-  height: 200px;
-  /* margin: 20px 0 20px 50px; */
+.foam-section img {
+  min-width: 400px;
+  flex: 1;
+  order: 1;
 }
 
 .foam-section__text {
-  margin-right: 60px;
   margin-top: 20px;
   margin-bottom: 20px;
+  flex: 2;
+  order: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 0 30px;
+  text-align: center;
 }
 
 .foam-section__text h2 {
@@ -576,19 +609,26 @@
   margin: 50px auto;
 }
 
-.foam-third__img img {
-  height: 400px;
+.foam-section__third img {
+  min-width: 400px;
   margin-top: 20px;
 }
 
 .foam-third__text {
-  margin-right: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  padding: 0 30px;
 }
 
 .foam-third__text h2 {
   margin-bottom: 25px;
   font-weight: 800;
 }
+
+.fo
 
 .foam-third__text p {
   font-size: 18px;
@@ -630,6 +670,11 @@
   /* width: 400px;
   height: 500px;
   margin-left: 20px; */
+}
+
+.mapouter iframe {
+  max-width: 400px;
+  overflow: hidden;
 }
 
 .contact-text {
