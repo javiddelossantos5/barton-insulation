@@ -726,8 +726,9 @@
   align-items: center;
   flex-direction: column;
   width: 80%;
-  margin: auto;
+  margin: 0 auto 50px auto;
   padding: 20px 0;
+  text-align: center;
 }
 
 .form-text h1 {
@@ -749,12 +750,20 @@
   cursor: pointer;
   color: black;
 }
+.form-container {
+  background-image: url(./images/background.jpg);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 .form {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: rgba(128, 128, 128, 0.548);
+  background-color: rgb(128, 128, 128);
   padding: 30px 20px;
   width: 400px;
   margin: 30px auto;
