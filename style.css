@@ -670,6 +670,7 @@
   width: 80%;
   margin: 50px auto;
   flex-direction: column;
+  text-align: center;
 }
 
 .effeciency h2 {
@@ -784,7 +785,7 @@
   align-items: center;
   background-color: rgb(128, 128, 128);
   padding: 30px 20px;
-  width: 400px;
+  max-width: 400px;
   margin: 30px auto;
   border: 1px solid black;
   border-radius: 20px;
