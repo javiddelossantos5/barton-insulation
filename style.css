@@ -26,10 +26,7 @@
 }
 
 .nav-links a:hover {
-  border: 1px solid black;
-  padding: 10px 15px;
-  border-radius: 8px;
-  background-color: rgba(128, 128, 128, 0.349);
+  background-color: rgb(128, 128, 128);
 }
 
 .hero {
@@ -197,6 +194,41 @@
   font-size: 18px;
 }
 
+/* Call Now Start */
+
+.call {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  border: 1px solid black;
+  padding: 20px;
+  border-radius: 50%;
+  background-color: rgba(128, 128, 128, 0.219);
+  transition: ease .7s ;
+  visibility: hidden;
+}
+
+.call:hover {
+  padding: 30px;
+  background-color: grey;
+}
+
+.call a {
+  font-size: 35px;
+  color: black;
+}
+
+@media only screen and (max-width: 600px) {
+  .call {
+    visibility: visible;
+  }
+}
+
+/* Call Now End */
+
 /* Footer Start */
 
 .footer {
@@ -358,17 +390,13 @@
   text-decoration: none;
   color: black;
   padding: 1rem;
+  transition: transform .5s ease;
 }
 
 .navbar-links li a:hover {
-  color: white;
+  color: grey;
 }
 
-.navbar-links li:hover {
-  background-color: #555;
-  border: 1px solid black;
-  border-radius: 8px;
-}
 
 .toggle-button {
   position: absolute;
@@ -666,14 +694,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 0 50px;
-  /* width: 400px;
-  height: 500px;
-  margin-left: 20px; */
-}
-
-.mapouter iframe {
-  max-width: 400px;
   overflow: hidden;
 }
 
@@ -692,11 +712,10 @@
   background-color: rgba(128, 128, 128, 0.548);
   padding: 50px 0;
   margin-bottom: 40px;
-  /* border-radius: 25px; */
 }
 
 .contact-me__text {
-  margin: 20px 0;
+  margin: 20px 40px;
 }
 
 .contact-me__text h4 {
@@ -852,7 +871,7 @@ footer {
 }
 
 .socials a:hover i {
-  color: aqua;
+  color: grey;
 }
 
 .footer-bottom {
